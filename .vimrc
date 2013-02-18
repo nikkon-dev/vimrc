@@ -11,7 +11,6 @@ Bundle 'git://git.wincent.com/command-t.git'
 filetype plugin indent on
 
 colorscheme desert
-filetype plugin indent on
 set nowrap
 syntax enable
 set background=dark
@@ -26,12 +25,18 @@ let g:clang_complete_macros=1
 let g:clang_complete_auto=0
 let g:clang_auto_select=1
 
-set shiftwidth=2
+set shiftwidth=4
 set cin
 set ai
-set softtabstop=2
+set softtabstop=4
 set ic
+set expandtab
 
 set gfn=DejaVu\ Sans\ Mono\ 11
 set backspace=start,eol,indent
+
+set cinoptions=:0,l1,g0,(0,W1s,m1
+set hlsearch
+set list
+set listchars=tab:>-,trail:@
 
