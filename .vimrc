@@ -33,4 +33,5 @@ set softtabstop=2
 set ic
 
 set gfn=DejaVu\ Sans\ Mono\ 11
+set backspace=start,eol,indent
 
