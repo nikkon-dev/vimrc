@@ -5,8 +5,8 @@ call vundle#rc()
 
 
 Bundle 'gmarik/vundle'
-
 Bundle 'git://git.wincent.com/command-t.git'
+Bundle 'git://github.com/Rip-Rip/clang_complete.git'
 
 filetype plugin indent on
 
@@ -24,6 +24,8 @@ let g:clang_library_path='/usr/lib/llvm/'
 let g:clang_complete_macros=1
 let g:clang_complete_auto=0
 let g:clang_auto_select=1
+
+highlight PMenuSel ctermbg=White
 
 set shiftwidth=4
 set cin
